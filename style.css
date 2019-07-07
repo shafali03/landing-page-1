@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+  font-size: 10px;
+  overflow-x: hidden;
+}
+
+/* =========================================
+                Navigation icon
+============================================ */
+
+/* #nav-icon {
+  position: absolute;
+  left: 80%;
+  top: 5%;
+  cursor: pointer;
+  padding: 13px 20px 16px 0px;
+}
+
+#nav-icon span,
+#nav-icon span:before,
+#nav-icon span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: #0097e6;
+  position: absolute;
+  display: block;
+  content: "";
+}
+#nav-icon span:before {
+  top: -10px;
+}
+#nav-icon span:after {
+  bottom: -10px;
+}
+
+#nav-icon span,
+#nav-icon span:before,
+#nav-icon span:after {
+  transition: all 300ms ease-in-out;
+}
+#nav-icon.active span {
+  background-color: transparent;
+}
+#nav-icon.active span:before,
+#nav-icon.active span:after {
+  top: 0;
+}
+#nav-icon.active span:before {
+  transform: rotate(45deg);
+}
+#nav-icon.active span:after {
+  transform: rotate(-45deg);
+} */
+
+/* =========================================
+                Navigation menu
+============================================ */
+
+nav {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo-img {
+  width: 176px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* =========================================
+            text-color
+============================================ */
+
+.main__heading {
+  color: #000;
+  font-size: 4rem;
+}
+
+.main__heading span {
+  color: rgb(223, 62, 62);
+}
